@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register User</title>
+    <style>
+        .container {
+            max-width: 600px;
+        }
+
+        .form-group {
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <form #addUserForm="ngForm" (ngSubmit)="registerUser(addUserForm)"
+        class="container mt-5 p-4 border rounded shadow-sm bg-light">
+        <h2 class="mb-4 text-center text-primary">Register</h2>
+        <div class="form-group mb-3">
+            <label for="fname" class="form-label">First Name</label>
+            <input type="text" id="fname" name="fname" class="form-control" ngModel placeholder="Enter your first name" required />
+        </div>
+        <div class="form-group mb-3">
+            <label for="lname" class="form-label">Last Name</label>
+            <input type="text" id="lname" name="lname" class="form-control" ngModel placeholder="Enter your last name" required />
+        </div>
+        <div class="form-group mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" id="email" name="email" class="form-control" ngModel placeholder="Enter your email" required />
+        </div>
+        <div class="form-group mb-3">
+            <label for="phone" class="form-label">Phone</label>
+            <input type="text" id="phone" name="phone" class="form-control" ngModel placeholder="Enter your phone number" required />
+        </div>
+        <div class="form-group mb-4">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" id="password" name="password" class="form-control" ngModel placeholder="Enter your password" required />
+        </div>
+        <div class="d-flex justify-content-center">
+            <input type="submit" value="Register" class="btn btn-primary btn-lg me-2 ms-2" />
+            <input type="reset" value="Clear" class="btn btn-secondary btn-lg ms-2" />
+        </div>
+    </form>
+</body>
+</html>

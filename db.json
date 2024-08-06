@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "fname": "Manoj",
+      "lname": "Adhikari",
+      "email": "manojadhikari@gmail.com",
+      "phone": "234324234",
+      "password": "asdasdf",
+      "id": "1"
+    },
+    {
+      "fname": "shivam",
+      "lname": "adhikari",
+      "email": "shivamadhikari@gmail.com",
+      "phone": "32432",
+      "password": "asdf",
+      "id": "2"
+    },
+    {
+      "id": "5714",
+      "fname": "Rohit",
+      "lname": "Sharma",
+      "email": "rohit@gmail.com",
+      "phone": "09123456789",
+      "password": "abcdefg"
+    },
+    {
+      "id": "3da3",
+      "fname": "Nagendhar",
+      "lname": "reddy",
+      "email": "reddy@gmail.com",
+      "phone": "9123456789",
+      "password": "reddy123"
+    },
+    {
+      "id": "9fa3",
+      "fname": "Sai",
+      "lname": "Kumar",
+      "email": "sai@gmail.com",
+      "phone": "04851848201",
+      "password": "sai123"
+    },
+    {
+      "id": "6fdb",
+      "fname": "sanjeev",
+      "lname": "rao",
+      "email": "sanjeev",
+      "phone": "08123456789",
+      "password": "sanjeev123"
+    },
+    {
+      "id": "ffcb",
+      "fname": "Ra",
+      "lname": "ma",
+      "email": "rama@gmail.com",
+      "phone": "09123456789",
+      "password": "Rama123"
+    }
+  ]
+}
